@@ -1,14 +1,15 @@
 import React from "react";
 import { profile, Substract } from "../Assets/Utils/Index";
-import { Deskripsi, LinkSocialMediaArray, title } from "../constants";
+import { HeroSubTitle } from "../constants";
+import { LinkSocialMediaArray, title } from "../constants";
 import { MdOutlineDateRange } from "react-icons/md";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { FaMapPin } from "react-icons/fa";
 const Profile = () => {
   return (
-    <div className=" h-[95vh] md:h-fit static md:fixed -left-10 top-4 w-full md:w-auto mb-2">
+    <div className=" h-screen  md:h-fit static md:fixed  w-full md:w-auto mb-2">
       {/* Background image */}
-      <img className="w-fit md:px-10 mt-7 px-20" src={Substract} alt="Substract" />
+      <img className="w-fit mt-7" src={Substract} alt="Substract" />
 
       {/* Text on top of the image */}
       <div className="absolute inset-0 flex flex-col mt-10 md:mt-5 items-center space-y-3 md:space-y-1 ">
@@ -17,7 +18,7 @@ const Profile = () => {
         {/* Title */}
         <div className="py-3">
           <h1 className="font-fontTitle text-2xl font-semibold text-center mb-1">{title}</h1>
-          <p className="text-xs text-center text-slate-400">Front end | UI Designer | Content Creator</p>
+          <p className="text-xs text-center text-slate-400">Front-End & Back-End Developer · UI/UX Enthusiast</p>
         </div>
         {/* Bio */}
         <div className="w-fit flex flex-col space-y-5 item-center justify-center mx-auto">
@@ -41,8 +42,8 @@ const Profile = () => {
           </div>
         </div>
         {/* Deskripsi */}
-        <div className=" mx-auto max-w-prose text-center font-fontTitle px-2 md:px-12 py-3 mb-10">
-          <p className="text-center px-5 max-w-prose text-[14px] md:mx-auto">{Deskripsi}</p>
+        <div className=" mx-auto max-w-prose text-center font-fontTitle px-5 md:px-12 py-3 mb-10">
+          <p className="text-center px-5 max-w-prose text-[14px] md:mx-auto">{HeroSubTitle}</p>
         </div>
         {/* link Sosmed */}
         <div className="flex space-x-3">

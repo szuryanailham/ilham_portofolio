@@ -1,6 +1,6 @@
 import React from "react";
-import { HeroSubTitle } from "../constants";
 
+import { Deskripsi } from "../constants";
 const Hero = () => {
   return (
     <div id="Home" className="w-full py-12 text-center flex items-center flex-col">
@@ -10,7 +10,7 @@ const Hero = () => {
           <span className="text-[#2196F3]"> Crafting</span> Visual Journeys with Every <span className="text-[#502499]">Line of Code</span>
         </span>
       </h1>
-      <p className=" w-[80%] font-fontTitle font-Trap mt-5 text-center text-md md:w-[50%] font- md:mx-auto font-normal">{HeroSubTitle}</p>
+      <p className=" w-[80%] font-fontTitle font-Trap mt-5 text-center text-md md:w-full md:mx-auto font-normal px-0 md:px-[100px]">{Deskripsi}</p>
     </div>
   );
 };
