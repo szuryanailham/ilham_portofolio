@@ -25,7 +25,7 @@ import javascriptporto from "../Images/icon/javascript.png";
 import laravelporto from "../Images/icon/laravel.svg";
 import ability_logo from "../Images/icon/Design.png";
 import ability_logo2 from "../Images/icon/Dev.png";
-import ability_logo3 from "../Images/icon/Video.png";
+import ability_logo3 from "../Images/icon/docker-logo-white.png";
 
 //  ================= export =====================
 export const Substract = substract;

@@ -1,5 +1,7 @@
+import { FaDocker } from "react-icons/fa";
 import { Instagram, javascriptPorto, whatsapp, laravelPorto, Linkedin, reactPorto, tailwindsPorto, Ability1, Ability2, Ability3, github, project1, project2, project3 } from "../Assets/Utils/Index";
 export const title = "HEI, I AM SZURYANA ";
+
 export const Deskripsi =
   "Saya Fullstack Developer dengan 3+ tahun pengalaman dalam membangun aplikasi web yang responsif, interaktif, dan scalable. Menguasai Figma Design, HTML, CSS, JavaScript, serta framework modern seperti Laravel , Next.js, dan Express.";
 
@@ -57,7 +59,7 @@ export const portofolio = [
   {
     id: 1,
     nama: "Ruang Edit – Course Learning Website",
-    url: "https://www.figma.com/design/NRPe9ub8J3d0M2xRQwqTqf/REDESIGN-WEBSITE-RUANG-EDIT?node-id=0-1&t=n7fEMkKqd62lqfoN-1",
+    url: "/portfolio/ruang-edit",
     github: "https://github.com/szuryanailham/Ruang_Edit",
     img: project1,
     tehno: { reactPorto, javascriptPorto, tailwindsPorto, laravelPorto },
@@ -83,7 +85,7 @@ export const portofolio = [
   },
   {
     id: 2,
-    url: "https://www.figma.com/design/NRPe9ub8J3d0M2xRQwqTqf/REDESIGN-WEBSITE-RUANG-EDIT?node-id=0-1&t=n7fEMkKqd62lqfoN-1",
+    url: "/portfolio/zendo",
     nama: "Ruang Edit - course learning website",
     github: "https://github.com/szuryanailham/Ruang_Edit",
     img: project2,
@@ -91,7 +93,7 @@ export const portofolio = [
   },
   {
     id: 3,
-    url: "https://www.figma.com/design/NRPe9ub8J3d0M2xRQwqTqf/REDESIGN-WEBSITE-RUANG-EDIT?node-id=0-1&t=n7fEMkKqd62lqfoN-1",
+    url: "/portfolio/sumu",
     nama: "Ruang Edit - course learning website",
     github: "https://github.com/szuryanailham/Ruang_Edit",
     img: project3,
@@ -114,8 +116,8 @@ export const AbilityArray = [
   },
   {
     id: "3",
-    title: "Content Creator",
+    title: "DevOps",
     image: Ability3,
-    desc: "Saya membuat content edukasi pembelajaran design figma dan web developer di paltform social media",
+    desc: "Saya berperan dalam mengelola deployment otomatis, CI/CD pipeline, monitoring server, serta pengelolaan infrastruktur untuk memastikan aplikasi berjalan optimal dan efisien.",
   },
 ];

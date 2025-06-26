@@ -8,12 +8,12 @@ import MenuBar from "./Components/MenuBar";
 import Portofolio from "./Components/Portofolio";
 import Profile from "./Components/Profile";
 import Skill from "./Components/Skill";
-import PortfolioDetail from "./page/PortfolioDetail";
-
+import RuangEditDetail from "./page/ruang_edit_detail";
+import ZendoDetail from "./page/zendo_detail";
+import SumuDetail from "./page/sumu_detail";
 function App() {
   return (
     <Router>
-      <MenuBar />
       <Routes>
         {/* Halaman Utama */}
         <Route
@@ -27,6 +27,7 @@ function App() {
 
               {/* Content Section */}
               <div id="content" className="w-full md:w-2/3 overflow-y-auto md:h-full p-4">
+                <MenuBar />
                 <Hero />
                 <Skill />
                 <div id="education">
@@ -45,7 +46,9 @@ function App() {
         />
 
         {/* Halaman Detail Portofolio */}
-        <Route path="/portfolio/:id" element={<PortfolioDetail />} />
+        <Route path="/portfolio/ruang-edit" element={<RuangEditDetail />} />
+        <Route path="/portfolio/zendo" element={<ZendoDetail />} />
+        <Route path="/portfolio/sumu" element={<SumuDetail />} />
       </Routes>
     </Router>
   );
