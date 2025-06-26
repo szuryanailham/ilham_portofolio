@@ -85,7 +85,7 @@ export const portofolio = [
   {
     id: 2,
     url: "/portfolio/zendo",
-    nama: "Ruang Edit - course learning website",
+    nama: "Zendo – Layanan On-Demand via WhatsApp",
     github: "https://github.com/szuryanailham",
     img: project2,
     tehno: { reactPorto, javascriptPorto, tailwindsPorto, laravelPorto },
@@ -93,7 +93,7 @@ export const portofolio = [
   {
     id: 3,
     url: "/portfolio/sumu",
-    nama: "Ruang Edit - course learning website",
+    nama: "SUMU – Sistem Untuk Monitoring Usaha",
     github: "https://github.com/szuryanailham",
     img: project3,
     tehno: { reactPorto, javascriptPorto, tailwindsPorto, laravelPorto },
