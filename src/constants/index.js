@@ -1,4 +1,3 @@
-import { FaDocker } from "react-icons/fa";
 import { Instagram, javascriptPorto, whatsapp, laravelPorto, Linkedin, reactPorto, tailwindsPorto, Ability1, Ability2, Ability3, github, project1, project2, project3 } from "../Assets/Utils/Index";
 export const title = "HEI, I AM SZURYANA ";
 
@@ -10,7 +9,7 @@ export const LinkSocialMediaArray = [
     id: "Linkedin",
     title: "Linkedin",
     image: Linkedin,
-    url: "https://www.linkedin.com/in/ilham-suryana/",
+    url: "https://www.linkedin.com/in/ilhamsuryana",
   },
 
   {
@@ -60,7 +59,7 @@ export const portofolio = [
     id: 1,
     nama: "Ruang Edit – Course Learning Website",
     url: "/portfolio/ruang-edit",
-    github: "https://github.com/szuryanailham/Ruang_Edit",
+    github: "https://github.com/szuryanailham/BISMILLAH-RUANG_EDIT",
     img: project1,
     tehno: { reactPorto, javascriptPorto, tailwindsPorto, laravelPorto },
     deskripsi: {
@@ -87,7 +86,7 @@ export const portofolio = [
     id: 2,
     url: "/portfolio/zendo",
     nama: "Ruang Edit - course learning website",
-    github: "https://github.com/szuryanailham/Ruang_Edit",
+    github: "https://github.com/szuryanailham",
     img: project2,
     tehno: { reactPorto, javascriptPorto, tailwindsPorto, laravelPorto },
   },
@@ -95,7 +94,7 @@ export const portofolio = [
     id: 3,
     url: "/portfolio/sumu",
     nama: "Ruang Edit - course learning website",
-    github: "https://github.com/szuryanailham/Ruang_Edit",
+    github: "https://github.com/szuryanailham",
     img: project3,
     tehno: { reactPorto, javascriptPorto, tailwindsPorto, laravelPorto },
   },
