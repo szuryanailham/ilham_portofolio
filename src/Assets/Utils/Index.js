@@ -5,7 +5,7 @@ import Tiktok_icon from "../Images/icon-sosmed/Tiktok.svg";
 import whatsapp_icon from "../Images/icon-sosmed/whatsapp.svg";
 import github_icon from "../Images/icon-sosmed/Github.svg";
 import instagram_icon from "../Images/icon-sosmed/Instagram.svg";
-import Figma_logo from "../Images/skill_icons/Figma.svg";
+import Figma_logo from "../Images/skill_icons/mongodb.svg";
 import InertiaJS_logo from "../Images/skill_icons/InertiaJS.svg";
 import Laravel_logo from "../Images/skill_icons/Laravel.svg";
 import Next_logo from "../Images/skill_icons/Next.svg";

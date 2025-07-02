@@ -10,7 +10,7 @@ const Hero = () => {
           <span className="text-[#2196F3]"> Crafting</span> Visual Journeys with Every <span className="text-[#502499]">Line of Code</span>
         </span>
       </h1>
-      <p className=" w-[80%] font-fontTitle font-Trap mt-5 text-center text-md md:w-full md:mx-auto font-normal px-0 md:px-[100px]">{Deskripsi}</p>
+      <p className=" w-[80%] font-fontTitle font-Trap mt-5 text-center text md:w-full md:mx-auto font-normal px-0 md:px-[100px]">{Deskripsi}</p>
     </div>
   );
 };

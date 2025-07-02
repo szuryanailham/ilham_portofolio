@@ -18,7 +18,7 @@ const Profile = () => {
         {/* Title */}
         <div className="py-3">
           <h1 className="font-fontTitle text-2xl font-semibold text-center mb-1">{title}</h1>
-          <p className="text-xs text-center text-slate-400">Front-End & Back-End Developer · UI/UX Enthusiast</p>
+          <p className="text-xs text-center text-slate-400">Junior Fullstack JavaScript Developer | React – Node.js</p>
         </div>
         {/* Bio */}
         <div className="w-fit flex flex-col space-y-5 item-center justify-center mx-auto">

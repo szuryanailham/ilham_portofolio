@@ -1,8 +1,8 @@
-import { Instagram, javascriptPorto, whatsapp, laravelPorto, Linkedin, reactPorto, tailwindsPorto, Ability1, Ability2, Ability3, github, project1, project2, project3 } from "../Assets/Utils/Index";
+import { Instagram, javascriptPorto, whatsapp, laravelPorto, Linkedin, reactPorto, tailwindsPorto, Ability1, Ability2, Ability3, github, project1 } from "../Assets/Utils/Index";
 export const title = "HEI, I AM SZURYANA ";
 
 export const Deskripsi =
-  "Saya Fullstack Developer dengan 3+ tahun pengalaman dalam membangun aplikasi web yang responsif, interaktif, dan scalable. Menguasai Figma Design, HTML, CSS, JavaScript, serta framework modern seperti Laravel , Next.js, dan Express.";
+  "Saya Junior Fullstack Developer yang berpengalaman membangun aplikasi web interaktif dan responsif menggunakan JavaScript. Terbiasa menggunakan React, Node.js, dan Express untuk pengembangan fullstack, serta menguasai database MySQL, PostgreSQL, dan MongoDB.";
 
 export const LinkSocialMediaArray = [
   {
@@ -32,8 +32,7 @@ export const LinkSocialMediaArray = [
     url: "https://github.com/szuryanailham",
   },
 ];
-
-export const HeroSubTitle = "Membangun Pengalaman Visual yang Berkesan melalui  Setiap Baris pixel dan Kode";
+export const HeroSubTitle = "Membangun Aplikasi Web yang Fungsional dan Interaktif dengan JavaScript, React, dan Node.js";
 
 export const experience = [
   {
@@ -61,41 +60,6 @@ export const portofolio = [
     url: "/portfolio/ruang-edit",
     github: "https://github.com/szuryanailham/BISMILLAH-RUANG_EDIT",
     img: project1,
-    tehno: { reactPorto, javascriptPorto, tailwindsPorto, laravelPorto },
-    deskripsi: {
-      ringkasan: "Website pembelajaran berbasis course yang membantu pengguna belajar video editing dengan sistem pembelian token dan akses materi eksklusif.",
-      problem: ["User tidak bisa langsung mengakses materi tanpa membayar.", "Pembelian course perlu divalidasi otomatis.", "Materi kursus tidak terorganisir dan tidak terlindungi.", "User membutuhkan bukti transaksi melalui email."],
-      solusi: [
-        "Mengintegrasikan Midtrans API untuk transaksi dan validasi otomatis.",
-        "Menggunakan token akses kelas yang dikirim via email setelah pembayaran.",
-        "Admin dashboard untuk manajemen kelas, materi, dan harga.",
-        "Sistem pengiriman email otomatis sebagai bukti transaksi dan akses kelas.",
-      ],
-      peran: "Fullstack Developer",
-      tugas: [
-        "Membangun antarmuka frontend dengan React dan Tailwind CSS.",
-        "Membuat REST API menggunakan Laravel.",
-        "Mengintegrasikan Midtrans untuk sistem pembayaran.",
-        "Membuat sistem token akses untuk membuka kelas.",
-        "Membangun sistem email otomatis menggunakan Laravel Mail.",
-        "Mendesain UI/UX di Figma dan mengimplementasikannya ke dalam kode.",
-      ],
-    },
-  },
-  {
-    id: 2,
-    url: "/portfolio/zendo",
-    nama: "Zendo – Layanan On-Demand via WhatsApp",
-    github: "https://github.com/szuryanailham",
-    img: project2,
-    tehno: { reactPorto, javascriptPorto, tailwindsPorto, laravelPorto },
-  },
-  {
-    id: 3,
-    url: "/portfolio/sumu",
-    nama: "SUMU – Sistem Untuk Monitoring Usaha",
-    github: "https://github.com/szuryanailham",
-    img: project3,
     tehno: { reactPorto, javascriptPorto, tailwindsPorto, laravelPorto },
   },
 ];
