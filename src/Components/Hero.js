@@ -1,3 +1,4 @@
+import { FiDownload } from "react-icons/fi";
 const Hero = () => {
   return (
     <div id="Home" className="w-full py-12 text-center flex items-center flex-col">
@@ -16,6 +17,10 @@ const Hero = () => {
         <br className="hidden md:block" />
         Selain itu, saya juga menguasai pengelolaan data menggunakan MySQL, PostgreSQL, dan MongoDB untuk memastikan performa dan skalabilitas aplikasi.
       </p>
+      <a href="/resume.pdf" download className=" mt-10 inline-flex items-center gap-2 px-6 py-3 border border-white rounded-xl text-white hover:bg-[#502499] hover:text-white transition-all duration-300">
+        <FiDownload className="text-xl" />
+        <span>Unduh Resume</span>
+      </a>
     </div>
   );
 };

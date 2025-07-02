@@ -11,7 +11,7 @@ function CertificateSection() {
 
       <div className="w-full flex flex-col gap-4">
         {certificates.map((url, index) => (
-          <img key={index} src={url} alt={`Certificate ${index + 1}`} className=" w-full rounded-xl shadow-lg cursor-pointer" onClick={() => setSelectedImage(url)} />
+          <img key={index} src={url} alt={`Certificate ${index + 1}`} className=" relative group w-full h-[250px] md:h-[400px] rounded-xl shadow-lg cursor-pointer" onClick={() => setSelectedImage(url)} />
         ))}
       </div>
 

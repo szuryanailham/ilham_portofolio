@@ -32,7 +32,7 @@ function BlogList() {
     <div className="py-12 px-4">
       <h2 className="text-2xl md:text-3xl font-bold text-center mb-10 text-white">Blog Terbaru</h2>
 
-      <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-8 max-w-7xl mx-auto">
+      <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-4 max-w-7xl mx-auto">
         {blogData.map((blog) => (
           <div key={blog.id} className="bg-white/10 backdrop-blur-md border border-[#502499] rounded-xl overflow-hidden shadow-md">
             <img src={blog.cover} alt={blog.title} className="w-full h-48 object-cover" />
