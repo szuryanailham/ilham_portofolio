@@ -9,8 +9,7 @@ import Portofolio from "./Components/Portofolio";
 import Profile from "./Components/Profile";
 import Skill from "./Components/Skill";
 import RuangEditDetail from "./page/ruang_edit_detail";
-import ZendoDetail from "./page/zendo_detail";
-import SumuDetail from "./page/sumu_detail";
+
 function App() {
   return (
     <Router>
@@ -47,8 +46,6 @@ function App() {
 
         {/* Halaman Detail Portofolio */}
         <Route path="/portfolio/ruang-edit" element={<RuangEditDetail />} />
-        <Route path="/portfolio/zendo" element={<ZendoDetail />} />
-        <Route path="/portfolio/sumu" element={<SumuDetail />} />
       </Routes>
     </Router>
   );
