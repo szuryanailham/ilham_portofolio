@@ -9,7 +9,11 @@ import Portofolio from "./Components/Portofolio";
 import Profile from "./Components/Profile";
 import Skill from "./Components/Skill";
 import RuangEditDetail from "./page/ruang_edit_detail";
-
+import CertificateSection from "./Components/certificate";
+import { Testimony } from "./Components/Testimony";
+import ResumeDownload from "./Components/resumeDownload";
+import BlogList from "./Components/blogList";
+import ContactMe from "./Components/ContactMe";
 function App() {
   return (
     <Router>
@@ -39,6 +43,21 @@ function App() {
                   <Portofolio />
                 </div>
                 <Ability />
+                <div id="certificate">
+                  <CertificateSection />
+                </div>
+                <div id="testimony">
+                  <Testimony />
+                </div>
+                <div>
+                  <ResumeDownload />
+                </div>
+                <div>
+                  <BlogList />
+                </div>
+                <div>
+                  <ContactMe />
+                </div>
               </div>
             </div>
           }

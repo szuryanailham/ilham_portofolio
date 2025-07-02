@@ -1,6 +1,3 @@
-import React from "react";
-
-import { Deskripsi } from "../constants";
 const Hero = () => {
   return (
     <div id="Home" className="w-full py-12 text-center flex items-center flex-col">
@@ -10,7 +7,15 @@ const Hero = () => {
           <span className="text-[#2196F3]"> Crafting</span> Visual Journeys with Every <span className="text-[#502499]">Line of Code</span>
         </span>
       </h1>
-      <p className=" w-[80%] font-fontTitle font-Trap mt-5 text-center text md:w-full md:mx-auto font-normal px-0 md:px-[100px]">{Deskripsi}</p>
+      <p className="w-full max-w-3xl mx-auto mt-5 text-center font-normal text-base md:text-md font-fontTitle px-4 md:px-12 font-Trap leading-relaxed text-gray-300 ">
+        Saya seorang Junior Fullstack Developer yang fokus pada pengembangan aplikasi web modern dan responsif menggunakan JavaScript.
+        <br className="hidden md:block" />
+        <br className="hidden md:block" />
+        Saya terbiasa membangun aplikasi end-to-end dengan React di sisi frontend serta Node.js dan Express untuk backend.
+        <br className="hidden md:block" />
+        <br className="hidden md:block" />
+        Selain itu, saya juga menguasai pengelolaan data menggunakan MySQL, PostgreSQL, dan MongoDB untuk memastikan performa dan skalabilitas aplikasi.
+      </p>
     </div>
   );
 };

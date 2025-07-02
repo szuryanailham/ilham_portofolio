@@ -2,7 +2,7 @@ import { Instagram, javascriptPorto, whatsapp, laravelPorto, Linkedin, reactPort
 export const title = "HEI, I AM SZURYANA ";
 
 export const Deskripsi =
-  "Saya Junior Fullstack Developer yang berpengalaman membangun aplikasi web interaktif dan responsif menggunakan JavaScript. Terbiasa menggunakan React, Node.js, dan Express untuk pengembangan fullstack, serta menguasai database MySQL, PostgreSQL, dan MongoDB.";
+  "Saya seorang Junior Fullstack Developer yang fokus pada pengembangan aplikasi web modern dan responsif menggunakan JavaScript. Saya terbiasa membangun aplikasi end-to-end dengan React di sisi frontend dan Node.js serta Express di sisi backend. Selain itu, saya juga menguasai pengelolaan data menggunakan MySQL, PostgreSQL, dan MongoDB untuk memastikan performa dan skalabilitas aplikasi.";
 
 export const LinkSocialMediaArray = [
   {
@@ -75,8 +75,9 @@ export const AbilityArray = [
     id: "2",
     title: "Developer",
     image: Ability2,
-    desc: "Saya membuat tampilan user interface dalam tehnologi website menggunakan bahasa pemograman terbaru",
+    desc: "Saya membangun aplikasi web secara menyeluruh, mulai dari antarmuka pengguna menggunakan React hingga pengelolaan backend dengan Node.js dan Express.",
   },
+
   {
     id: "3",
     title: "DevOps",
