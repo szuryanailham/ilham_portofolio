@@ -10,6 +10,9 @@ module.exports = {
       fontFamily: {
         fontTitle: ["Poppins", "sans-serif"],
       },
+      animation: {
+        "bounce-slow": "bounce 2s infinite",
+      },
       backgroundImage: {
         "tailwind-gradient": "linear-gradient(0deg, #35A5EE 0%, #1264D6 100%)",
         "next-color": "linear-gradient(0deg, #25262F 0%, #0C0D16 100%)",

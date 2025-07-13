@@ -28,22 +28,17 @@ function ContactSection() {
 
         {/* Contact Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
-          <a href="mailto:ilhamsuryana@example.com" className="flex flex-col items-center justify-center p-6 bg-white/10 backdrop-blur-md border border-[#502499] rounded-xl hover:bg-[#502499] transition">
+          <a href="mailto:ilhamsuryana@example.com" className="flex flex-col items-center justify-center p-6 bg-[#1a2848] backdrop-blur-md  rounded-xl hover:bg-[#502499] transition">
             <FiMail className="text-3xl mb-3" />
             <span className="text-lg font-semibold">Email</span>
             <p className="text-sm opacity-70 mt-1">ilhamsuryana@example.com</p>
           </a>
-          <a
-            href="https://wa.me/6281234567890"
-            className="flex flex-col items-center justify-center p-6 bg-white/10 backdrop-blur-md border border-[#502499] rounded-xl hover:bg-[#502499] transition"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://wa.me/6281234567890" className="flex flex-col items-center justify-center p-6 bg-[#1a2848] backdrop-blur-md  rounded-xl hover:bg-[#502499] transition" target="_blank" rel="noopener noreferrer">
             <FiPhone className="text-3xl mb-3" />
             <span className="text-lg font-semibold">WhatsApp</span>
             <p className="text-sm opacity-70 mt-1">+62 812 3456 7890</p>
           </a>
-          <a href="https://t.me/ilhamsuryana" className="flex flex-col items-center justify-center p-6 bg-white/10 backdrop-blur-md border border-[#502499] rounded-xl hover:bg-[#502499] transition" target="_blank" rel="noopener noreferrer">
+          <a href="https://t.me/ilhamsuryana" className="flex flex-col items-center justify-center p-6 bg-[#1a2848] backdrop-blur-md  rounded-xl hover:bg-[#502499] transition" target="_blank" rel="noopener noreferrer">
             <FiSend className="text-3xl mb-3" />
             <span className="text-lg font-semibold">Telegram</span>
             <p className="text-sm opacity-70 mt-1">@ilhamsuryana</p>
@@ -51,7 +46,7 @@ function ContactSection() {
         </div>
 
         {/* Testimony Form */}
-        <div className="max-w-xl mx-auto bg-white/10 backdrop-blur-md border border-[#502499] rounded-xl p-6">
+        <div className="max-w-xl mx-auto bg-[#1a2848] backdrop-blur-md  rounded-xl p-6">
           <h3 className="text-2xl font-bold text-center mb-6">Kirim Testimoni</h3>
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>

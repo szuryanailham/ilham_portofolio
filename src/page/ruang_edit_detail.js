@@ -2,33 +2,38 @@ import React, { useState } from "react";
 import { project1 } from "../Assets/Utils/Index";
 import { FaGithubAlt } from "react-icons/fa";
 import { FiExternalLink } from "react-icons/fi";
-
+import image_porto_1 from "../Assets/Images/detail-porto/ruang-edit/image_1.png";
+import image_porto_2 from "../Assets/Images/detail-porto/ruang-edit/image_2.png";
+import image_porto_3 from "../Assets/Images/detail-porto/ruang-edit/image_3.png";
+import image_porto_4 from "../Assets/Images/detail-porto/ruang-edit/image_4.png";
+import image_porto_5 from "../Assets/Images/detail-porto/ruang-edit/image_5.png";
+import { HiOutlineDocumentText } from "react-icons/hi";
 const RuangEditDetail = () => {
   const [selectedImage, setSelectedImage] = useState(null);
   const images = [
     {
       id: 1,
-      src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg",
+      src: image_porto_1,
       alt: "Ruang Edit – Homepage UI Design",
     },
     {
       id: 2,
-      src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg",
+      src: image_porto_2,
       alt: "Dashboard Interface – Admin View",
     },
     {
       id: 3,
-      src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg",
+      src: image_porto_3,
       alt: "Login Page UI – Clean Auth Layout",
     },
     {
       id: 4,
-      src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg",
+      src: image_porto_4,
       alt: "Mentor Profile Page – Detail UI",
     },
     {
       id: 5,
-      src: "https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg",
+      src: image_porto_5,
       alt: "Course Listing – User Selection View",
     },
   ];
@@ -41,13 +46,13 @@ const RuangEditDetail = () => {
       </div>
 
       {/* Tombol Demo */}
-      <div className="mb-12 w-full flex justify-center gap-4">
+      <div className="mb-12 w-full flex justify-center flex-wrap gap-4">
         {/* Tombol Demo */}
         <a
           href="https://ruangedit.ilhamsuryana.my.id"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-2 px-6 py-3 bg-white text-black border border-black rounded-xl text-sm font-semibold shadow-md  hover:scale-105 transition-transform duration-300"
+          className="flex items-center gap-2 px-6 py-3 bg-white text-black border border-black rounded-xl text-sm font-semibold shadow-md hover:scale-105 transition-transform duration-300"
         >
           <FiExternalLink className="text-lg" />
           View Project Demo
@@ -55,13 +60,24 @@ const RuangEditDetail = () => {
 
         {/* Tombol Github */}
         <a
-          href="https://ruangedit.ilhamsuryana.my.id"
+          href="https://github.com/szuryanailham/BISMILLAH-RUANG_EDIT"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-2 px-6 py-3 bg-white text-black border border-black rounded-xl text-sm font-semibold shadow-md  hover:scale-105 transition-transform duration-300"
+          className="flex items-center gap-2 px-6 py-3 bg-white text-black border border-black rounded-xl text-sm font-semibold shadow-md hover:scale-105 transition-transform duration-300"
         >
           <FaGithubAlt className="text-lg" />
-          View Project Source code
+          View Source Code
+        </a>
+
+        {/* Tombol Dokumentasi */}
+        <a
+          href="https://www.notion.so/Ruang-Edit-1e6f6694a17c80499232f5f667187180?source=copy_link" // Ganti dengan link dokumentasi aslimu
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 px-6 py-3 bg-white text-black border border-black rounded-xl text-sm font-semibold shadow-md hover:scale-105 transition-transform duration-300"
+        >
+          <HiOutlineDocumentText className="text-lg" />
+          View Documentation
         </a>
       </div>
 

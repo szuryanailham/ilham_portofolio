@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 import sertificate from "../Assets/Images/sertificate/Decoding-dasar-javascript.jpg";
 import sertificate_dua from "../Assets/Images/sertificate/Decoding-web-javascript.jpg";
-import sertificate_tiga from "../Assets/Images/sertificate/Golang_basic.jpg";
 import sertificate_empat from "../Assets/Images/sertificate/Winnership.jpg";
-import sertificate_lima from "../Assets/Images/sertificate/kampus-merdeka.jpg";
+import sertificate_lima from "../Assets/Images/sertificate/Freecodecamp_backend.png";
 
-const certificates = [sertificate, sertificate_dua, sertificate_tiga, sertificate_empat, sertificate_lima];
+const certificates = [sertificate, sertificate_dua,sertificate_lima, sertificate_empat];
 
 function CertificateSection() {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -28,7 +27,7 @@ function CertificateSection() {
 
       {selectedImage && (
         <div className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center">
-          <div className="relative w-full max-w-xl max-h-[80vh] px-4">
+          <div className="relative w-full max-w-2xl max-h-[80vh] px-4">
             <img src={selectedImage} alt="Zoomed Certificate" className="w-full h-auto max-h-[70vh] object-contain rounded-xl shadow-lg" />
             <button onClick={() => setSelectedImage(null)} className="absolute top-2 right-2 bg-white text-black px-3 py-1 rounded-full shadow-md hover:bg-gray-200">
               ✕

@@ -14,7 +14,7 @@ const Skill = () => {
     <div className="py-10 px-6">
       <h1 className="text-2xl font-bold text-center md:text-3xl text-colortitle font-poppins mb-3">My Skills</h1>
 
-      <p className="text-center max-w-prose text-base md:mx-auto text-gray-300 mb-6">Berikut adalah beberapa keterampilan pengembang web yang saya kuasai untuk mendukung karier saya sebagai seorang web developer.</p>
+      <p className="text-center max-w-prose text-base md:mx-auto text-gray-300 mb-6">Here are some of the web development skills I have mastered to support my career as a back end developer.</p>
 
       <section className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
         {skills.map((skill, index) => (

@@ -14,6 +14,7 @@ import { Testimony } from "./Components/Testimony";
 import ResumeDownload from "./Components/resumeDownload";
 import BlogList from "./Components/blogList";
 import ContactMe from "./Components/ContactMe";
+import Footer from "./Components/Footer";
 function App() {
   return (
     <Router>
@@ -22,17 +23,28 @@ function App() {
         <Route
           path="/"
           element={
-            <div className="flex flex-col md:flex-row h-fit">
+            /* ① Beri max‑width supaya konten tidak “melar” terlalu lebar
+                 ② Gunakan 2xl:h-screen agar tinggi penuh di TV/monitor */
+            <div className="max-w-screen-2xl mx-auto flex flex-col lg:flex-row 2xl:h-screen">
               {/* Profile Section */}
-              <div id="home" className="w-full md:w-1/3 md:border-r-4 border-gray-700 md:h-screen">
+              <div
+                id="home"
+                /* 1/3 di desktop, 1/4 di monitor besar */
+                className="w-full lg:w-1/3 2xl:w-1/4 border-gray-700 lg:border-r-4 2xl:border-r-8 2xl:h-screen"
+              >
                 <Profile />
               </div>
 
               {/* Content Section */}
-              <div id="content" className="w-full md:w-2/3 overflow-y-auto md:h-full p-4">
+              <div
+                id="content"
+                /* 2/3 di desktop, 3/4 di monitor besar */
+                className="w-full lg:w-2/3 2xl:w-3/4 overflow-y-auto h-full p-2 2xl:p-8"
+              >
                 <MenuBar />
                 <Hero />
                 <Skill />
+
                 <div id="education">
                   <Education />
                 </div>
@@ -42,22 +54,20 @@ function App() {
                 <div id="portofolio">
                   <Portofolio />
                 </div>
+
                 <Ability />
+
                 <div id="certificate">
                   <CertificateSection />
                 </div>
                 <div id="testimony">
                   <Testimony />
                 </div>
-                <div>
-                  <ResumeDownload />
-                </div>
-                <div>
-                  <BlogList />
-                </div>
-                <div>
-                  <ContactMe />
-                </div>
+
+                <ResumeDownload />
+                <BlogList />
+                <ContactMe />
+                <Footer />
               </div>
             </div>
           }

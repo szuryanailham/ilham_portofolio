@@ -1,8 +1,8 @@
 import { Instagram, javascriptPorto, whatsapp, laravelPorto, Linkedin, reactPorto, tailwindsPorto, Ability1, Ability2, Ability3, github, project1 } from "../Assets/Utils/Index";
-export const title = "HEI, I AM SZURYANA ";
+export const title = "HEI, I AM ILHAM SURYANA ";
 
 export const Deskripsi =
-  "Saya seorang Junior Fullstack Developer yang fokus pada pengembangan aplikasi web modern dan responsif menggunakan JavaScript. Saya terbiasa membangun aplikasi end-to-end dengan React di sisi frontend dan Node.js serta Express di sisi backend. Selain itu, saya juga menguasai pengelolaan data menggunakan MySQL, PostgreSQL, dan MongoDB untuk memastikan performa dan skalabilitas aplikasi.";
+  "I am a Junior Back End JavaScript Developer focused on building modern and scalable web applications. I specialize in developing APIs using Node.js and Express, and I’m experienced in working with databases such as MySQL, PostgreSQL, and MongoDB to ensure efficient data management and performance.";
 
 export const LinkSocialMediaArray = [
   {
@@ -32,24 +32,23 @@ export const LinkSocialMediaArray = [
     url: "https://github.com/szuryanailham",
   },
 ];
-export const HeroSubTitle = "Membangun Aplikasi Web yang Fungsional dan Interaktif dengan JavaScript, React, dan Node.js";
+export const HeroSubTitle = "Building functional and interactive web applications using JavaScript, React, and Node.js";
 
 export const experience = [
   {
-    Title: "Bootcamp Fullstack Developer – PT Amanah Karya",
-    year: "16 Februari 2024 – 30 Juni 2024",
-    deskripsi: "Mengikuti program Kampus Merdeka Angkatan 6 dengan fokus pada pengembangan aplikasi web menggunakan framework Laravel serta praktik kerja tim dan kolaborasi Git.",
+    Title: "Full‑stack Developer Bootcamp – PT Amanah Karya",
+    year: "16 February 2024 – 30 June 2024",
+    deskripsi: "Participated in Kampus Merdeka Cohort 6, focusing on web‑application development with the Laravel framework, team‑based workflows, and Git collaboration.",
   },
   {
-    Title: "Web Developer – PT Wesclic Studio",
-    year: "20 Desember 2024 – 2 Februari 2025",
-    deskripsi: "Berperan sebagai Fullstuck developer.yang diminta untuk mengembangkan REST API mengunakan laravel untuk aplikasi berbasis Multiplaform baik mobile app dan web ",
+    Title: "Web Developer – PT Wesclic Studio",
+    year: "20 December 2024 – 2 February 2025",
+    deskripsi: "Served as a Full‑stack Developer responsible for building REST APIs in Laravel for a multiplatform mobile and web application.",
   },
   {
-    Title: "Fullstack Contributor – Ruang Edit Course",
-    year: "20 Mei 2025 – Sekarang",
-    deskripsi:
-      "Berperan dalam perancangan dan pengembangan platform pembelajaran online Ruang Edit, mencakup analisis dan desain business flow, pembuatan ERD (Entity Relationship Diagram), desain antarmuka pengguna (UI), serta implementasi sisi front-end dan back-end sebagai Fullstack Developer.",
+    Title: "Full‑stack Contributor – Ruang Edit Course",
+    year: "20 May 2025 – Present",
+    deskripsi: "Contribute to the design and development of the Ruang Edit online‑learning platform, covering business‑flow analysis, ERD creation, UI design, and both front‑end and back‑end implementation.",
   },
 ];
 
@@ -60,6 +59,25 @@ export const portofolio = [
     url: "/portfolio/ruang-edit",
     github: "https://github.com/szuryanailham/BISMILLAH-RUANG_EDIT",
     img: project1,
+    desc: "Full‑stack e‑learning platform with Laravel back‑end, React front‑end, and secure Midtrans payment flow.",
+    tehno: { reactPorto, javascriptPorto, tailwindsPorto, laravelPorto },
+  },
+  {
+    id: 2,
+    nama: "Ruang Edit – Course Learning Website",
+    url: "/portfolio/ruang-edit",
+    github: "https://github.com/szuryanailham/BISMILLAH-RUANG_EDIT",
+    img: project1,
+    desc: "Full‑stack e‑learning platform with Laravel back‑end, React front‑end, and secure Midtrans payment flow.",
+    tehno: { reactPorto, javascriptPorto, tailwindsPorto, laravelPorto },
+  },
+  {
+    id: 3,
+    nama: "Ruang Edit – Course Learning Website",
+    url: "/portfolio/ruang-edit",
+    github: "https://github.com/szuryanailham/BISMILLAH-RUANG_EDIT",
+    img: project1,
+    desc: "Full‑stack e‑learning platform with Laravel back‑end, React front‑end, and secure Midtrans payment flow.",
     tehno: { reactPorto, javascriptPorto, tailwindsPorto, laravelPorto },
   },
 ];
@@ -69,19 +87,18 @@ export const AbilityArray = [
     id: "1",
     title: "Design",
     image: Ability1,
-    desc: "Saya membuat desain dan prototipe produk digital dengan ide-ide unik menggunakan Figma",
+    desc: "I design and prototype digital products with unique ideas using Figma.",
   },
   {
     id: "2",
     title: "Developer",
     image: Ability2,
-    desc: "Saya membangun aplikasi web secara menyeluruh, mulai dari antarmuka pengguna menggunakan React hingga pengelolaan backend dengan Node.js dan Express.",
+    desc: "I develop complete web applications, from user interfaces using React to backend management with Node.js and Express.",
   },
-
   {
     id: "3",
     title: "DevOps",
     image: Ability3,
-    desc: "Saya berperan dalam mengelola deployment otomatis, CI/CD pipeline, monitoring server, serta pengelolaan infrastruktur untuk memastikan aplikasi berjalan optimal dan efisien.",
+    desc: "I handle automated deployments, CI/CD pipelines, server monitoring, and infrastructure management to ensure applications run optimally and efficiently.",
   },
 ];

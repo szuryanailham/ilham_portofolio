@@ -24,6 +24,20 @@ const testimonies = [
     image: "https://randomuser.me/api/portraits/men/65.jpg",
     contact: "mailto:dimas@komunitaskoding.id",
   },
+  {
+    name: "Dimas Kurniawan",
+    role: "Founder Komunitas Koding",
+    message: "Ilham punya semangat tinggi dan eksekusi cepat. Sangat direkomendasikan untuk project digital.",
+    image: "https://randomuser.me/api/portraits/men/65.jpg",
+    contact: "mailto:dimas@komunitaskoding.id",
+  },
+  {
+    name: "Dimas Kurniawan",
+    role: "Founder Komunitas Koding",
+    message: "Ilham punya semangat tinggi dan eksekusi cepat. Sangat direkomendasikan untuk project digital.",
+    image: "https://randomuser.me/api/portraits/men/65.jpg",
+    contact: "mailto:dimas@komunitaskoding.id",
+  },
 ];
 
 export function Testimony() {
@@ -39,7 +53,7 @@ export function Testimony() {
         <div className="flex">
           {testimonies.map((item, index) => (
             <div key={index} className="flex-[0_0_100%] px-4 md:px-8 transition-transform ease-in-out duration-500">
-              <div className="w-full max-w-xl mx-auto bg-[#502499] text-white shadow-md rounded-xl p-6 text-center">
+              <div className="w-full max-w-xl mx-auto bg-[#1a2848] text-white shadow-md rounded-xl p-6 text-center">
                 <img src={item.image} alt={item.name} className="w-20 h-20 mx-auto rounded-full mb-4 object-cover border-4 border-white" />
                 <p className="italic mb-4 text-base leading-relaxed">“{item.message}”</p>
                 <h4 className="text-lg font-semibold">{item.name}</h4>
