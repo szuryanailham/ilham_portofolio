@@ -19,7 +19,7 @@ const Profile = () => {
         {/* Title */}
         <div className="py-3 2xl:py-4">
           <h1 className="font-fontTitle text-xl 2xl:text-3xl font-semibold text-center mb-1">{title}</h1>
-          <p className="text-md 2xl:text-sm text-center text-slate-400">Junior Back End JavaScript</p>
+          <p className="text-md 2xl:text-sm text-center text-slate-400">Junior Back End Developer</p>
         </div>
 
         {/* Bio */}

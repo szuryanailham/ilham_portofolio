@@ -28,15 +28,15 @@ function ContactSection() {
 
         {/* Contact Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
-          <a href="mailto:ilhamsuryana@example.com" className="flex flex-col items-center justify-center p-6 bg-[#1a2848] backdrop-blur-md  rounded-xl hover:bg-[#502499] transition">
+          <a href="mailto:" className="flex flex-col items-center justify-center p-6 bg-[#1a2848] backdrop-blur-md  rounded-xl hover:bg-[#502499] transition">
             <FiMail className="text-3xl mb-3" />
             <span className="text-lg font-semibold">Email</span>
-            <p className="text-sm opacity-70 mt-1">ilhamsuryana@example.com</p>
+            <p className="text-sm opacity-70 mt-1">szuryanailham090102@gmail.com</p>
           </a>
-          <a href="https://wa.me/6281234567890" className="flex flex-col items-center justify-center p-6 bg-[#1a2848] backdrop-blur-md  rounded-xl hover:bg-[#502499] transition" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/6285853438903" className="flex flex-col items-center justify-center p-6 bg-[#1a2848] backdrop-blur-md  rounded-xl hover:bg-[#502499] transition" target="_blank" rel="noopener noreferrer">
             <FiPhone className="text-3xl mb-3" />
             <span className="text-lg font-semibold">WhatsApp</span>
-            <p className="text-sm opacity-70 mt-1">+62 812 3456 7890</p>
+            <p className="text-sm opacity-70 mt-1">+62 858 348 8903</p>
           </a>
           <a href="https://t.me/ilhamsuryana" className="flex flex-col items-center justify-center p-6 bg-[#1a2848] backdrop-blur-md  rounded-xl hover:bg-[#502499] transition" target="_blank" rel="noopener noreferrer">
             <FiSend className="text-3xl mb-3" />

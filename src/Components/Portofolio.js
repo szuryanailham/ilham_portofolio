@@ -1,7 +1,6 @@
 import React from "react";
 import { portofolio } from "../constants";
 import { FaGithub } from "react-icons/fa";
-
 const Portfolio = () => {
   return (
     <section className="py-12">
@@ -24,14 +23,17 @@ const Portfolio = () => {
             </a>
 
             {/* Content */}
-            <div className="p-5">
-              <h2 className="text-lg md:text-xl font-semibold mb-1 text-white">{item.nama}</h2>
-              <p className="text-sm text-white/80 mb-7">{item.desc}</p>
+            <div className="p-5 rounded-lg shadow-lg">
+              <a href={item.url} passHref>
+                <h2 className="text-lg md:text-xl font-semibold mb-1 text-white">{item.nama}</h2>
+                <p className="text-sm text-white/80 mb-7">{item.desc}</p>
+              </a>
 
               <div className="flex justify-between items-center">
-                <a href={item.url} target="_blank" rel="noopener noreferrer" className="text-sm px-4 py-2 bg-[#502499] hover:bg-[#3c1d75] text-white rounded-md transition">
-                  See Detail
+                <a href={item.demo} target="_blank" rel="noopener noreferrer" className="text-sm px-4 py-2 bg-[#502499] hover:bg-[#3c1d75] text-white rounded-md transition">
+                  See Demo
                 </a>
+
                 {item.github && (
                   <a href={item.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub repository" className="text-2xl text-white hover:text-colortitle transition-colors">
                     <FaGithub />

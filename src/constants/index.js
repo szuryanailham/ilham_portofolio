@@ -2,7 +2,7 @@ import { Instagram, javascriptPorto, whatsapp, laravelPorto, Linkedin, reactPort
 export const title = "HEI, I AM ILHAM SURYANA ";
 
 export const Deskripsi =
-  "I am a Junior Back End JavaScript Developer focused on building modern and scalable web applications. I specialize in developing APIs using Node.js and Express, and I’m experienced in working with databases such as MySQL, PostgreSQL, and MongoDB to ensure efficient data management and performance.";
+  "I am a Junior Back End Developer focused on building modern and scalable web applications. I specialize in developing APIs using Laravel and Node.js and I’m experienced in working with databases such as MySQL, PostgreSQL, and MongoDB to ensure efficient data management and performance.";
 
 export const LinkSocialMediaArray = [
   {
@@ -32,7 +32,7 @@ export const LinkSocialMediaArray = [
     url: "https://github.com/szuryanailham",
   },
 ];
-export const HeroSubTitle = "Building functional and interactive web applications using JavaScript, React, and Node.js";
+export const HeroSubTitle = "Building functional and interactive web applications using JavaScript, React, Laravel and Node.js";
 
 export const experience = [
   {
@@ -59,6 +59,7 @@ export const portofolio = [
     url: "/portfolio/ruang-edit",
     github: "https://github.com/szuryanailham/BISMILLAH-RUANG_EDIT",
     img: project1,
+    demo: "https://ruangedit.ilhamsuryana.my.id/",
     desc: "Full‑stack e‑learning platform with Laravel back‑end, React front‑end, and secure Midtrans payment flow.",
     tehno: { reactPorto, javascriptPorto, tailwindsPorto, laravelPorto },
   },
@@ -66,6 +67,7 @@ export const portofolio = [
     id: 2,
     nama: "Ruang Edit – Course Learning Website",
     url: "/portfolio/ruang-edit",
+    demo: "https://ruangedit.ilhamsuryana.my.id/",
     github: "https://github.com/szuryanailham/BISMILLAH-RUANG_EDIT",
     img: project1,
     desc: "Full‑stack e‑learning platform with Laravel back‑end, React front‑end, and secure Midtrans payment flow.",
@@ -77,6 +79,7 @@ export const portofolio = [
     url: "/portfolio/ruang-edit",
     github: "https://github.com/szuryanailham/BISMILLAH-RUANG_EDIT",
     img: project1,
+    demo: "https://ruangedit.ilhamsuryana.my.id/",
     desc: "Full‑stack e‑learning platform with Laravel back‑end, React front‑end, and secure Midtrans payment flow.",
     tehno: { reactPorto, javascriptPorto, tailwindsPorto, laravelPorto },
   },

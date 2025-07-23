@@ -7,9 +7,19 @@ import image_porto_2 from "../Assets/Images/detail-porto/ruang-edit/image_2.png"
 import image_porto_3 from "../Assets/Images/detail-porto/ruang-edit/image_3.png";
 import image_porto_4 from "../Assets/Images/detail-porto/ruang-edit/image_4.png";
 import image_porto_5 from "../Assets/Images/detail-porto/ruang-edit/image_5.png";
+import { FiArrowLeft } from "react-icons/fi";
 import { HiOutlineDocumentText } from "react-icons/hi";
+import { Link } from "react-router-dom";
 const RuangEditDetail = () => {
   const [selectedImage, setSelectedImage] = useState(null);
+  const contributions = [
+    { role: "UI Design", percent: 100 },
+    { role: "Frontend Development", percent: 90 },
+    { role: "Project Management", percent: 80 },
+    { role: "Backend Development", percent: 85 },
+    { role: "Deployment & DevOps", percent: 75 },
+  ];
+
   const images = [
     {
       id: 1,
@@ -40,6 +50,17 @@ const RuangEditDetail = () => {
 
   return (
     <div className="p-6 md:p-10 max-w-6xl mx-auto font-sans text-base leading-relaxed">
+      {/* Back Button */}
+      <div className="mb-6">
+        <Link
+          to="/" // Ganti ke path tujuan seperti "/portfolio" atau gunakan onClick jika ingin pakai history.back()
+          className="inline-flex items-center text-white hover:text-[#c9b6ff] transition-colors"
+        >
+          <FiArrowLeft className="text-xl mr-2" />
+          <span>Back</span>
+        </Link>
+      </div>
+
       {/* Gambar / Hero Section */}
       <div className="mb-10">
         <img src={project1} alt="Ruang Edit Project Cover" className="w-full max-h-[500px] object-cover rounded-xl shadow" />
@@ -102,46 +123,21 @@ const RuangEditDetail = () => {
         </ul>
       </section>
 
-      {/* Alur Sistem */}
+      {/* Contribution Progress Bars */}
       <section className="mb-12">
-        <h2 className="text-2xl font-semibold mb-3 border-b pb-1">⚙️ System Flow & Functionality</h2>
-        <ul className="list-disc list-inside space-y-2">
-          <li>Users register and log in using their email and password.</li>
-          <li>They can browse available courses, view course details, and see information about mentors.</li>
-          <li>Courses can be purchased through an integrated Xendit payment system.</li>
-          <li>After a successful payment, a course access token is sent via email.</li>
-          <li>The token is then used to unlock and access the course materials.</li>
-        </ul>
-      </section>
-
-      {/* Permasalahan & Solusi */}
-      <section className="mb-12">
-        <h2 className="text-2xl font-semibold mb-3 border-b pb-1">🛠️ Problems & Solutions</h2>
-
-        <div className="mb-6">
-          <h3 className="font-semibold text-lg mb-2">Why This Application Was Built</h3>
-          <ul className="list-disc list-inside space-y-2">
-            <li>
-              <strong>Problem:</strong> Admins had difficulty managing classes manually, from adding materials to setting access.
-              <br />
-              <strong>Solution:</strong> This app provides an intuitive class management dashboard with complete CRUD functionality.
-            </li>
-            <li>
-              <strong>Problem:</strong> Members often struggled to choose the right materials related to editing, design, or other creative topics.
-              <br />
-              <strong>Solution:</strong> The platform organizes content by category and assigns mentors based on their specialization, helping members stay focused.
-            </li>
-            <li>
-              <strong>Problem:</strong> Learning materials were not well-organized and often difficult for members to access.
-              <br />
-              <strong>Solution:</strong> An automated token system delivers instant access to course content only for verified users.
-            </li>
-            <li>
-              <strong>Problem:</strong> Admins had trouble processing payments from various channels like banks and e-wallets efficiently.
-              <br />
-              <strong>Solution:</strong> Integration with Xendit as a payment gateway simplifies multi-channel transactions (bank transfer, QRIS, e-wallets).
-            </li>
-          </ul>
+        <h2 className="text-2xl font-semibold mb-4 border-b pb-1">📊 Contribution Breakdown</h2>
+        <div className="space-y-4">
+          {contributions.map((item) => (
+            <div key={item.role}>
+              <div className="flex justify-between mb-1">
+                <span className="text-sm font-medium text-white/90">{item.role}</span>
+                <span className="text-sm text-white/60">{item.percent}%</span>
+              </div>
+              <div className="w-full bg-white/20 rounded-full h-3">
+                <div className="bg-[#502499] h-3 rounded-full transition-all duration-1000" style={{ width: `${item.percent}%` }}></div>
+              </div>
+            </div>
+          ))}
         </div>
       </section>
 
