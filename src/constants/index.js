@@ -1,4 +1,4 @@
-import { Instagram, javascriptPorto, whatsapp, laravelPorto, Linkedin, reactPorto, tailwindsPorto, Ability1, Ability2, Ability3, github, project1 } from "../Assets/Utils/Index";
+import { Instagram, javascriptPorto, whatsapp, laravelPorto, Linkedin, reactPorto, tailwindsPorto, Ability1, Ability2, Ability3, github, project1, project2, project3 } from "../Assets/Utils/Index";
 export const title = "HEI, I AM ILHAM SURYANA ";
 
 export const Deskripsi =
@@ -60,17 +60,17 @@ export const portofolio = [
     github: "https://github.com/szuryanailham/BISMILLAH-RUANG_EDIT",
     img: project1,
     demo: "https://ruangedit.ilhamsuryana.my.id/",
-    desc: "Full‑stack e‑learning platform with Laravel back‑end, React front‑end, and secure Midtrans payment flow.",
+    desc: "Ruang Edit is an online learning platform that provides digital classes in editing, such as graphic design, video editing, and photography.",
     tehno: { reactPorto, javascriptPorto, tailwindsPorto, laravelPorto },
   },
   {
     id: 2,
     nama: "Ruang Edit – Course Learning Website",
     url: "/portfolio/ruang-edit",
-    demo: "https://ruangedit.ilhamsuryana.my.id/",
+    demo: "https://zendo.id/",
     github: "https://github.com/szuryanailham/BISMILLAH-RUANG_EDIT",
-    img: project1,
-    desc: "Full‑stack e‑learning platform with Laravel back‑end, React front‑end, and secure Midtrans payment flow.",
+    img: project2,
+    desc: "Zendo is an ojek-based on-demand service that is here to fulfill all your needs anywhere and anytime. With a focus on convenience, speed, and comfort,",
     tehno: { reactPorto, javascriptPorto, tailwindsPorto, laravelPorto },
   },
   {
@@ -78,7 +78,7 @@ export const portofolio = [
     nama: "Ruang Edit – Course Learning Website",
     url: "/portfolio/ruang-edit",
     github: "https://github.com/szuryanailham/BISMILLAH-RUANG_EDIT",
-    img: project1,
+    img: project3,
     demo: "https://ruangedit.ilhamsuryana.my.id/",
     desc: "Full‑stack e‑learning platform with Laravel back‑end, React front‑end, and secure Midtrans payment flow.",
     tehno: { reactPorto, javascriptPorto, tailwindsPorto, laravelPorto },
